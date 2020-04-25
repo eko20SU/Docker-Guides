@@ -1,12 +1,14 @@
 # docker-cheat-sheet
 Quick reference guide for Docker commands - not at all exhaustive, just a cheat sheet.
 
-## Install Docker  
-|:-----|:--------|  
-| get image | wget -qO- https://get.docker.com/ \| sh|  
-| Check version | docker --version |  
-| Add user to docker group | sudo usermod -aG docker $(whoami) |  
-| commit change | ctrl + d | 
+## Installing Docker
+
+| task | command |
+|:-----|:--------|
+| get image | `wget -qO- https://get.docker.com/ | sh`|  
+| Check version | `docker --version` |  
+| Add user to docker group | `sudo usermod -aG docker $(whoami)`|  
+| commit change | `ctrl + d` | 
 
 
 ## Building/Running
