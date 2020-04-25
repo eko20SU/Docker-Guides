@@ -1,6 +1,9 @@
 # docker-cheat-sheet
 Quick reference guide for Docker commands - not at all exhaustive, just a cheat sheet.
 
+##Install Docker
+|:-----|:--------|
+|get image | wget -qO- https://get.docker.com/ | sh|
 
 ## Building/Running
 
