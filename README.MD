@@ -10,6 +10,16 @@ Quick reference guide for Docker commands - not at all exhaustive, just a cheat 
 | Add user to docker group | `sudo usermod -aG docker $(whoami)`|  
 | commit change | `ctrl + d` | 
 
+## Installing Docker
+
+| task | command |
+|:-----|:--------|
+| Donload stable release | `sudo curl -L "https://github.com/docker/compose/releases/download/1.25.0/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose`|  
+| Apply executable permissions to the binary | `sudo chmod +x /usr/local/bin/docker-compose` |  
+| create a symbolic link to /usr/bin or any other directory in your path | `sudo ln -s /usr/local/bin/docker-compose /usr/bin/docker-compose`|  
+| Test the installation | `docker-compose --version` | 
+
+
 
 ## Building/Running
 
